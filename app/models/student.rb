@@ -18,3 +18,5 @@ end
 def self.search(query)
   if query.present? 
     where('Name like ?', "% #{query}%")
+    
+    
